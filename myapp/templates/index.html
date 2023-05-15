@@ -1,0 +1,295 @@
+{% extends 'header.html' %}
+{% block content %}
+{% load static %}
+
+<!-- Slider Start -->
+<section class="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-xl-7">
+				<div class="block">
+					<div class="divider mb-3"></div>
+					<span class="text-uppercase text-sm letter-spacing ">Valor, Pride, & Integrity</span>
+					<h1 class="mb-3 mt-3">Your</h1>
+					<h1 class="mb-3 mt-3">Trusted</h1>
+					<h1 class="mb-3 mt-3">Protectors</h1>
+					
+					<p class="mb-4 pr-5">United we stand, Divided we fall.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="features">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="feature-block d-lg-flex">
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="icofont-investigator" style = "font-size: 400%;"></i>
+						</div>
+						<h4 class="mb-3">Admin</h4>
+						<p class="mb-4">Currently you can only access information which is only accessible to visitors. Please login to retrieve the data for specific desgination..</p>
+						<a href="{% url 'admin-login' %}" class="btn btn-main btn-round-full">Login</a>
+					</div>
+				
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="icofont-police-badge" style = "font-size: 400%;"></i>
+						</div>
+						<h4 class="mb-3">Commissioner</h4>
+						<p class="mb-4">Currently you can only access information which is only accessible to visitors. Please login to retrieve the data for specific desgination..</p>
+						<a href="{% url 'com-login' %}" class="btn btn-main btn-round-full">Login</a>
+					</div>
+				
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="icofont-cop" style = "font-size: 400%;"></i>
+						</div>
+						<h4 class="mb-3">Inspector</h4>
+						<p class="mb-4">Currently you can only access information which is only accessible to visitors. Please login to retrieve the data for specific desgination..</p>
+						<a href="{% url 'ins-login' %}" class="btn btn-main btn-round-full">Login</a>
+					</div>
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="icofont-funky-man" style = "font-size: 400%;" ></i>
+						</div>
+						<h4 class="mb-3">Citizen</h4>
+						<p class="mb-4">Currently you can only access information which is only accessible to visitors. Please login to retrieve the data for specific desgination..</p>
+						<a href="{% url 'citizen' %}" class="btn btn-main btn-round-full">Login</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section about">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-4 col-sm-6">
+				<div class="about-img">
+					<img src="{% static 'images/about/jim 22.jpg' %}" alt="" class="img-fluid" style="height: 30rem; width:30rem;">
+					<img src="{% static 'images/about/gordon(2).jpg' %}" alt="" class="img-fluid mt-4" style="height: 30rem; width:30rem;">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="about-img mt-4 mt-lg-0">
+					<img src="{% static 'images/about/berlin (1).jpg' %}" alt="" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="about-content pl-4 mt-4 mt-lg-0">
+					<h2 class="title-color">Creating Peaceful <br>& Law-abiding Society</h2>
+					<p class="mt-4 mb-5">Integrity is the foundation of law enforcement. If you don't have integrity, you shouldn,t be in law enforcement.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="cta-section ">
+	<div class="container">
+		<div class="cta position-relative">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-stat">
+						<i class="icofont-doctor"></i>
+						<span class="h3">58</span>k
+						<p>Cases Solved</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-stat">
+						<i class="icofont-flag"></i>
+						<span class="h3">1000</span>+
+						<p>Working Force</p>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-stat">
+						<i class="icofont-badge"></i>
+						<span class="h3">30</span>+
+						<p>Special Agents</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-stat">
+						<i class="icofont-globe"></i>
+						<span class="h3">20</span>
+						<p>Police Stations</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section service gray-bg">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7 text-center">
+				<div class="section-title">
+					<h2>Influencial Law Enforcement</h2>
+					<div class="divider mx-auto my-4"></div>
+					<p>“Some of the bravest and the best men of all the world, certainly in law enforcement, have made their contributions while they were undercover.”</p>
+					<p>– Thomas Foran</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-finger-print" style = "font-size: 300%;"></i>
+						<h4 class="mt-3 mb-3">Forensics</h4>
+					</div>
+
+					<div class="content">
+						<p class="mb-4">Department responsible for forensic tests. Moreover, unit is also responsible for investigating crime scene</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-law-book" style = "font-size: 300%;"></i>
+						<h4 class="mt-3 mb-3">Diplomatic Branch</h4>
+					</div>
+					<div class="content">
+						<p class="mb-4">Unit's main purpose is to provide specialist protection for diplomatic premises in the city.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-burglar" style = "font-size: 300%;"></i>
+						<h4 class="mt-3 mb-3">Hostage Negotiation</h4>
+					</div>
+					<div class="content">
+						<p class="mb-4">Unit is specially trained to communicate with criminals using civilians as hostage and person possessing threat.</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-traffic-light" style = "font-size: 300%;" ></i>
+						<h4 class="mt-3 mb-3">Traffic Control</h4>
+					</div>
+
+					<div class="content">
+						<p class="mb-4">Unit speacialized to control traffic movement and other road laws.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-injection-syringe" style = "font-size: 300%;"></i>
+						<h4 class="mt-3 mb-3">Drug Enforcement</h4>
+					</div>
+					<div class="content">
+						<p class="mb-4">Main task of unit is to inhibit the influence of narcotics.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-dna-alt-1 text-lg"></i>
+						<h4 class="mt-3 mb-3">Behavioral Science</h4>
+					</div>
+					<div class="content">
+						<p class="mb-4">Department tries to understand factor compelling citizen to turn criminal.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section testimonial-2 gray-bg">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7">
+				<div class="section-title text-center">
+					<h2>We protect over 5000+ people</h2>
+					<div class="divider mx-auto my-4"></div>
+					<p>“The backbone of our nation’s domestic defense against terrorist attacks will continue to be the men and women in local law enforcement and emergency services.”</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-12 testimonial-wrap-2">
+				<div class="testimonial-block style-2  gray-bg">
+					<i class="icofont-quote-right"></i>
+
+					<div class="client-info ">
+						<h4>Barbara Boxer</h4>
+						<p>
+							“Law enforcement officers are never ‘off duty.’ They are dedicated public servants who are sworn to protect public safety at any time and place that the peace is threatened. They need all the help that they can get.”
+						</p>
+					</div>
+				</div>
+
+				<div class="testimonial-block style-2  gray-bg">
+
+					<div class="client-info">
+						<h4>Andrew Laurinec</h4>
+						<p>
+							“What most people do not understand is that you could be the biggest thug that ever existed but if you needed help, I would be there.  I will show up when your friends won’t – or if they run away.  I work with brace men and women who do the same.  We go.  We help.  It is what we do.”						</p>
+					</div>
+					
+					<i class="icofont-quote-right"></i>
+				</div>
+
+				<div class="testimonial-block style-2  gray-bg">
+
+					<div class="client-info">
+						<h4>Robert Peel</h4>
+						<p>
+							"The police are the public and the public are the police; the police being only members of the public who are paid to give full time attention to duties which are incumbent on every citizen in the interests of community welfare and existence."
+						</p>
+					</div>
+					
+					<i class="icofont-quote-right"></i>
+				</div>
+
+				<div class="testimonial-block style-2  gray-bg">
+
+					<div class="client-info">
+						<h4>George S. Patton</h4>
+						<p class="mt-4">
+							“Real heroes die serving the law, not resisting it.”						</p>
+					</div>
+					<i class="icofont-quote-right"></i>
+				</div>
+
+				<div class="testimonial-block style-2  gray-bg">
+
+					<div class="client-info">
+						<h4>Ronald Reagan</h4>
+						<p>
+							“Evil is powerless if the good are unafraid.”	
+						</p>
+					</div>
+					<i class="icofont-quote-right"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}
